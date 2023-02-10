@@ -1,0 +1,15 @@
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\bin\Debug\net6.0\FindRegexTextFile.exe
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\bin\Debug\net6.0\FindRegexTextFile.deps.json
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\bin\Debug\net6.0\FindRegexTextFile.runtimeconfig.json
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\bin\Debug\net6.0\FindRegexTextFile.dll
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\bin\Debug\net6.0\FindRegexTextFile.pdb
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\FindRegexTextFile.csproj.AssemblyReference.cache
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\FindRegexTextFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\FindRegexTextFile.AssemblyInfoInputs.cache
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\FindRegexTextFile.AssemblyInfo.cs
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\FindRegexTextFile.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\FindRegexTextFile.dll
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\refint\FindRegexTextFile.dll
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\FindRegexTextFile.pdb
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\FindRegexTextFile.genruntimeconfig.cache
+C:\Users\Matheus\source\repos\FindRegexTextFile\FindRegexTextFile\obj\Debug\net6.0\ref\FindRegexTextFile.dll
