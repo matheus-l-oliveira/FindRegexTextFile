@@ -24,6 +24,8 @@ namespace FindRegexTextFile
             var fileName = args[0];
             var regex = new Regex(args[1]);
 
+            string outputFile = args.Count() > 2 && Directory.Exists(Path.GetDirectoryName(args[2])) ? args[2] : Path.GetTempFileName();
+
             var linesFound = new List<Line>();
 
             using (var sr = new StreamReader(fileName))
@@ -46,10 +48,25 @@ namespace FindRegexTextFile
                 Console.WriteLine($"\nLines found:");
 
                 var padSize = linesFound.LastOrDefault().lineNumber.ToString().Length + 1;
-                linesFound.ForEach(x => Console.WriteLine($"{TAB}=> {x.lineNumber.ToString().PadLeft(padSize, ' ')} | {x.line}"));
+
+                using (var sw = new StreamWriter(outputFile) { AutoFlush = true })
+                {
+                    foreach (var line in linesFound)
+                    {
+                        var print = $"{TAB}=> {line.lineNumber.ToString().PadLeft(padSize, ' ')} | {line.line}";
+                        Console.WriteLine(print);
+
+                        if (string.IsNullOrEmpty(outputFile)) continue;
+
+
+                        sw.WriteLine(print);
+                        sw.Flush();
+                    }
+                }
             }
 
-            Console.WriteLine($"\n{separator}");
+            Console.WriteLine($"\n{separator}\n");
+            Console.WriteLine($"Saved in \"{outputFile}\"");
         }
     }
 }
